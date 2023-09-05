@@ -2,9 +2,8 @@ package com.example.creditcardapp
 
 //data model
 data class CreditCard(
-    val id: String,
-    val uid: String,
-    val number: String,
+    val id: Int
+    /*val number: String,
     val expiringDate: String,
-    val type: String
+    val type: String*/
 )

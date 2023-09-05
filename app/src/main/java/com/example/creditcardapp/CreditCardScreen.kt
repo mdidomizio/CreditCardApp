@@ -26,9 +26,10 @@ fun CreditCardScreen(viewModel: CreditCardViewModel) {
             //display the list of credit cards
             LazyColumn {
                 items(creditCards) { creditCard->
-                    Text(text = creditCard.expiringDate)
+                    /*Text(text = creditCard.expiringDate)
                     Text(text = creditCard.number)
-                    Text(text = creditCard.type)
+                    Text(text = creditCard.type)*/
+                    Text(text = creditCard.id.toString())
                     Divider() //add a divider between items
                 }
             }
