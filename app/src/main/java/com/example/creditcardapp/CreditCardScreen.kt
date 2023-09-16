@@ -43,7 +43,7 @@ fun CreditCardScreen(viewModel: CreditCardViewModel) {
                         Text(text = "Credit card number: ${creditCard.credit_card_number}")
                         /*Text(text = creditCard.id.toString())
                         Text(text = creditCard.uid)*/
-                        Divider() //add a divider between items
+                        Divider() //add a divider between itemsœœ
                     }
                 }
             }
